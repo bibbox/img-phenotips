@@ -19,3 +19,11 @@
 ## Mounted Volumes
 
 * the mysql datafolder _/var/mysql_ will be mounted to _/opt/apps/INSTANCE_NAME/var/mysql_ in your BIBBOX kit 
+
+## Build and push to dockerhub
+
+```
+docker build . -t bibbox/phenotips:1.4.9
+
+docker push bibbox/phenotips:1.4.9
+```
